@@ -8,11 +8,11 @@ function adicionaCard(inputTitulo, inputMensagem) {
     ` 
     <div class="novocard">
         <div class="cont">
+        <style>p{word-break:break-all;}</style>
             <p class="titulo">${inputTitulo}</p>
             <p class="mens">${inputMensagem}</p>
         </div>
     </div>
-    
     `;
   
     divAdicionarCards.appendChild(divCardAdicionado);
