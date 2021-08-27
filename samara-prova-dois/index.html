@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Samara Kristiny">
+    <link rel="stylesheet" href="./style.css">
+    <title>Mensagens</title>
+</head>
+<body>
+    <header>
+        <section id="logo-titulo">
+            <figure id="logo">
+            <img src="./m.png" height="auto" width="80px">
+            </figure>
+            <div id="titulo">
+                <h3>Mensagens</h3>
+            </div>
+        </section>
+        
+        <nav>
+            <a href="./index.html" target="_blank">Início</a> 
+            <a href="./pag-sobre-nos.html" target="_blank">Sobre Nós</a> 
+            <a href="./pag-galeria.html" target="_blank">Galeria</a> 
+            <a href="./pag-blog.html" target="_blank">Blog</a>   
+            <a href="./pag-localizacao.html" target="_blank">Localização</a>
+            <a href="./pag-contato.html" target="_blank">Contato</a>     
+        </nav>
+    </header>
+    <main>
+        <div class="card">
+            <p class="title"><b>Adicionar mensagem</b></p>
+                <div class="conteudo">
+                    <form id="criar-mensagem" class="formulario" name="enviar-mensagem">
+                        <p>
+                            <input id="input-titulo" type="text" placeholder="Titulo" class="tit">
+                        </p>
+                        <p>
+                            <textarea id="input-mensagem" cols="30" rows="10" placeholder="Mensagem" class="msg"></textarea>
+                        </p>
+                        <button type="submit">Salvar</button>
+                        <button type="reset">Limpar</button>
+                    </form>
+                </div>
+        </div>
+        <div class="cards-adicionados">
+
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="./manipulacao-dom.js"></script>
+</body>
+</html>

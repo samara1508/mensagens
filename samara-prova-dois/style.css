@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap');
+
+#logo-titulo {
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: start;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    border-top: 5px solid #079ae4;
+    border-left: 5px solid #FFFFFF;
+    border-right: 5px solid #FFFFFF;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-top: 0;
+    padding: 0;
+    font-weight: 5px;
+}
+
+body {
+    background-color: #075982;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #075982;
+}
+
+nav a {
+    color: #079ae4;
+    text-decoration: none;
+    margin: 5px;
+    border-bottom: 5px solid #FFFFFF;
+}
+
+nav a:hover {
+    background-color: #079ae4;
+    color: #FFFFFF;
+    padding: 5px;
+    margin:0;
+    border: 0;
+    border-bottom: 0;
+}
+
+#criar-mensagem input, #criar-mensagem textarea {
+    border: none;
+    appearance: none;
+    background: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    width: calc(100% - 30px);
+    font-size: 14px;
+    resize: none;
+}
+
+#criar-mensagem input:focus-visible,
+#criar-mensagem textarea:focus-visible {
+outline-color: #079ae4;
+}
+
+button {
+    background-color: #079ae4;    
+    padding: 10px;
+    border-radius: 5px;
+    color:white;
+    border:#079ae4;
+    margin-right: 5px;
+}
+
+.card {
+ 
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 5px;
+    border-bottom: 15px solid white;
+}
+
+.title { 
+    background-color: #079ae4;
+    color: white;
+    border: 7px solid #079ae4;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.conteudo { 
+    margin-left: 10px;
+}
+
+#titulo { 
+    color: white;
+    font-size: 30px;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+#logo{
+    padding-right: 0px;
+    margin: 0px;
+}
+
+.novocard { 
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 5px;
+    border-bottom: 15px solid white;
+}
+
+.mens { 
+    margin: 10px;
+}
+
+.titulo { 
+    background-color: #079ae4;
+    color: white;
+    border: 7px solid #079ae4;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    main {
+      grid-template-columns: 1fr;
+    }
+
+    nav {
+      display: none;
+    }
+
+    #logo {
+      display: block;
+    }
+
+    #titulo { 
+      display: none;  
+    }
+  }
+
+
